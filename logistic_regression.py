@@ -93,7 +93,7 @@ b = lr_model.b
 
 #w1, w2 = lr_model.coef_.T #scikit method
 w1, w2 = lr_model.w
-print("Model parameters:")
+print("Model parameters in z-space:")
 print("w1 (income weight):", w1)    
 print("w2 (savings weight):", w2)
 print("b (intercept):", b)
